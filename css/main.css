@@ -1181,6 +1181,7 @@ strong,
 	right: 56px;
 	color: #fff;
 	z-index: 1;
+	display: none;
 }
 	.pane-when .header{
 		float: right;
