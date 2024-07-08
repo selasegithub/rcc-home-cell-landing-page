@@ -1646,3 +1646,23 @@ strong,
 	left: 0;
 	font-family: "Montserrat";
 }
+
+.text ul {
+	list-style-type: none; /* Removes default list bullets */
+	padding: 0; /* Removes default padding */
+	margin: 0 0 20px 0; /* Adjusts margin around the list */
+	/*background-color: #f8f8f8; /* Sets a light background color for the list */
+	border-radius: 8px; /* Rounds the corners of the list's background */
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow around the list */
+  }
+  
+  .text ul li {
+	padding: 10px 15px; /* Adds padding inside each list item for spacing */
+	border-bottom: 1px solid #ddd; /* Adds a separator between list items */
+	/*font-family: 'Arial', sans-serif; /* Sets the font for the list items */
+	/*color: #333; /* Sets the text color */
+  }
+  
+  .text ul li:last-child {
+	border-bottom: none; /* Removes the bottom border from the last list item */
+  }
